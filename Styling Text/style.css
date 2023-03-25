@@ -1,0 +1,33 @@
+body{
+  border-style: dashed;
+background-color: black;
+  border-radius: 3px;
+  border-color: rgb(255, 255, 255);
+}
+h1,p{
+  text-align: center;
+}
+p{
+font-size: 43px;
+  color: gold;
+    text-shadow: 5px 1px red;
+}
+p::first-letter{
+  font-size: 70px;
+  text-shadow: 12px 10px blue;
+}
+h1{
+  font-size: 85px;
+  color: white;
+  font-family: fantasy;
+  font-style: italic;
+  text-shadow: 10px 3px gold;
+  text-transform: uppercase;
+}
+.divList{
+  text-transform: capitalize;
+  border: 23px 10px blue;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
